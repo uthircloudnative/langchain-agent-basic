@@ -1,0 +1,16 @@
+langchain
+
+# LangChain Components (these auto-install langchain core, openai, chromadb, etc.)
+langchain-openai
+langchain-chroma
+langchain-community
+
+# Utilities (not auto-installed by above packages)
+python-dotenv
+nest-asyncio
+
+beautifulsoup4
+lxml
+
+# Optional: LangSmith tracing (comment out if not using)
+langsmith
