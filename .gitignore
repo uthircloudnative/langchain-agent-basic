@@ -30,7 +30,8 @@ build/
 *.whl
 
 # Data & Vector Store (Large Files)
-data/vector_store/
+data/vector_store/*
+!data/vector_store/.gitkeep
 data/raw_documents/
 *.db
 *.sqlite
